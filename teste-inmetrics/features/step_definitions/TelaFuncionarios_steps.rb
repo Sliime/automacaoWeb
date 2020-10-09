@@ -5,6 +5,9 @@ Dado("que {string} é um novo funcionario") do |string|
 end
 
 Quando("eu faço o cadastro deste funcionario") do
+  func = find('a[href="/empregados/new_empregado"]')
+  func.click
+  fill_in "nome", with: @funcionario
 end
 
 Então("devo ver o novo funcionário na lista") do
