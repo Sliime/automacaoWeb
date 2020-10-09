@@ -1,5 +1,6 @@
 Before do
   @form = Formulario.new
+  @cadastro = Cadastro.new
 end
 
 Before("@login") do

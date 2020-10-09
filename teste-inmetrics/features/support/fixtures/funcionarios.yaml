@@ -1,6 +1,6 @@
 funcionario:
  nome: "Luana Terra"
- cpf: "240222024"
+ cpf: "376.203.308-01"
  sexo: "Feminino"
  admissão: "10/04/2020"
  cargo: "QA jr"
@@ -9,7 +9,7 @@ funcionario:
 
 funcionario2:
  nome: "Guilherme Siqueira Leite"
- cpf: "240222025"
+ cpf: "37620330801"
  sexo: "Masculino"
  admissão: "10/04/2020"
  cargo: "QA jr"
