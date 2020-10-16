@@ -2,16 +2,16 @@ funcionario:
  nome: "Luana Terra"
  cpf: "376.203.308-01"
  sexo: "Feminino"
- admissão: "10/04/2020"
+ admissao: "10/04/2020"
  cargo: "QA jr"
  salario: 2.500
  tipo de contratação: "CLT"
 
 funcionario2:
  nome: "Guilherme Siqueira Leite"
- cpf: "37620330801"
+ cpf: "376.203.308-01"
  sexo: "Masculino"
- admissão: "10/04/2020"
+ admissao: "10/04/2020"
  cargo: "QA jr"
  salario: 2.500
  tipo de contratação: "CLT"

@@ -15,6 +15,10 @@ class Cadastro
     fill_in "cpf", with: @funcionario["cpf"]
     fill_in "cargo", with: @funcionario["cargo"]
     fill_in "salario", with: @funcionario["salario"]
-    fill_in "adimissao", with: @funcionario["admissão"]
+    admissao = find("#inputAdmissao")
+    admissao.set @funcionario["admissao"]
+
+    choose("PJ")
+    select @funcionario["sexo"], :from => "sexo"
   end
 end
