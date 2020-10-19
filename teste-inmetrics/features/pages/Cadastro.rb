@@ -17,8 +17,12 @@ class Cadastro
     fill_in "salario", with: @funcionario["salario"]
     admissao = find("#inputAdmissao")
     admissao.set @funcionario["admissao"]
-
-    choose("PJ")
+    choose(@funcionario["tipo de contratação"])
     select @funcionario["sexo"], :from => "sexo"
+    sleep(3)
+  end
+
+  def getCheckCamp
+    find("input[value=clt]")
   end
 end

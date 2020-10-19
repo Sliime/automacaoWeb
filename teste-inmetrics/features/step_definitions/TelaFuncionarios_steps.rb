@@ -5,8 +5,7 @@ end
 Quando("eu faço o cadastro deste funcionario") do
   @cadastro.newFunc.click
   @cadastro.registroForm
-  kk = find("input[value=clt]")
-  expect(kk).to be_checked
+  expect(@cadastro.getCheckCamp).to be_checked
 end
 
 Então("devo ver o novo funcionário na lista") do
